@@ -1,2 +1,46 @@
+# Site settings
+title: TIM_爱吃肉
+header-img: "img/facebook.jpg"
+tagline: "cn"
+description: "多吃肉，顶饿"
 baseurl: /wowtim
-pygments: true
+
+# About/contact
+owner:
+    name: "wowtim"
+    email: htingming@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+timezone: Asia/Shanghai
+
+# Defaults for posts
+defaults:
+  -
+      scope:
+        path: ""
+        typs: "posts"
+      values:
+        layout: "post"
+        author: "wowtim"
+        header-img: "img/facebook.jpg"
+
+# Comments
+comments :
+  provider : duoshuo
+  duoshuo :
+    short_name : cnfeat
+  disqus :
+      short_name : cnfeat
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in footer navigation
