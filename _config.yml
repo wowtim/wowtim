@@ -10,6 +10,8 @@ owner:
     name: "wowtim"
     email: htingming@gmail.com
 
+
+
 # Build settings
 markdown: kramdown
 highlighter: pygments
@@ -44,3 +46,4 @@ google_verify:
 bing_verify:
 
 # Links to include in footer navigation
+github_username: wowtim
