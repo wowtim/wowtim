@@ -209,6 +209,7 @@ hr.small {
 @media only screen and (min-width: 768px) {
   .intro-header {
     margin-bottom: 20px;
+    margin-top:-30px;
     /* response on desktop */
   }
 }
@@ -523,4 +524,3 @@ body {
 .navbar-default .navbar-toggle:active {
   background-color: #ddd;
 }
-
